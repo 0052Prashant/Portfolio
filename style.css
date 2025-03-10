@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(5, 5, 39);
+    color: white;
+     font-family: "Poppins", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:70px;
+    background-color: rgb(20, 20, 58); 
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+nav ul a:hover{
+    color: rgb(179, 179, 245);
+    font-size: 1.01;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0 ;
+}
+.firstsection>div{
+    width: 30%;
+}
+.leftsection{
+  font-size: 2rem;
+ 
+}
+.rightsection img {
+   width: 100%;
+}
+.purple{
+    color: rgb(128, 60, 191);
+}
+
+.second-section{
+    width: 100vw;
+    height: 130vh;
+    margin: auto;
+}
+.box{
+    margin: 50px;
+}
+.about{
+  
+  margin-top: 20px;
+}
+.education{
+    margin-left: 50px;
+}
+.education hr{
+    width: 92vw;
+}
+.education h4{
+    margin-top: 50px;
+}
+.edu{
+    display: flex;
+    justify-content: space-around;
+}
+.sch{
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.skill hr{
+    width: 92vw;
+}
+.first{
+    margin-top: 30PX;
+    display: flex;
+    justify-content: space-around;
+}
+.SECOND{
+    margin-top: 30PX;
+    margin-right: 220px;
+    display: flex;
+    justify-content: space-around;
+}
+.THIRD{
+    margin-top: 30PX;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    
+    
+    margin-top: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.contact hr{
+    width: 92vw;
+}
+.third-section{
+    width: 100vw;
+    height: 130vh;
+    margin: auto;
+}
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-right img{
+    height: 80vh;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+.contact-left-title{
+    font-weight: 400;
+    color: rgb(99, 34, 160);
+    font-size: 40px;
+    margin-bottom: 4px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    color: gray;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid rgb(118, 53, 29);
+}
+.contact-left button{
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    color: white;
+    background-color: rgb(97, 36, 154);
+}
